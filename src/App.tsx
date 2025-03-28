@@ -17,14 +17,14 @@ function App() {
 
         <div className="flex flex-col items-center">
           <div className="w-max">
-            <p className="typing-animation overflow-hidden whitespace-nowrap mt-70 w-80 text-2xl font-bold text-white md:text-3xl md:mt-70 lg:text-5xl lg:mt-100">
+            <p className="typing-animation overflow-hidden whitespace-nowrap mt-15 w-80 text-2xl font-bold text-white md:text-3xl md:mt-40 lg:text-5xl lg:mt-100">
               Hi, my name is Lakshan.
             </p>
           </div>
           <div className="text-sm p-1 font-style: italic text-white md:text-md md:p-2 lg:text-lg lg:p-3">
               I'm an Enthusiast @ Tech | Photography | Travel
           </div>
-          <div className="w-70 grid grid-rows-3 gap-4 mt-5 md:grid-rows-3 md:w-75 md:mt-10 lg:grid-cols-3 lg:w-220">
+          <div className="w-70 grid grid-rows-3 gap-4 mt-10 md:grid-rows-3 md:w-75 md:mt-10 lg:grid-cols-3 lg:w-220">
             <Card>
               <CardHeader>
                 <CardTitle>Tech</CardTitle>
