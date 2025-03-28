@@ -1,35 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import { Button } from "./components/ui/button";
-
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="flex bg-auto min-h-screen items-center justify-center bg-gradient-to-tr from-blue-500 to-purple-500">
+      <div className="p-10">
+        <div className="w-max">
+          <p className="typing-animation overflow-hidden whitespace-nowrap pr-1 text-5xl font-bold text-white">
+            Hi, my name is Lakshan.
+          </p>
+          <p className="p-3 font-style: italic text-white text-lg">
+            I'm an Enthusiast @    Tech | Photography | Travel
+          </p>
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <Button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </Button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    </div>
     </>
   )
 }
