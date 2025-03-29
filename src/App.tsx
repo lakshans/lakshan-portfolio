@@ -1,18 +1,28 @@
 import './App.css'
-import { Button } from './components/ui/button';
-import { Card, CardDescription, CardFooter, CardHeader, CardTitle } from './components/ui/card';
-import { ThemeProvider } from './components/theme-provider';
-import { ModeToggle } from './components/mode-toggle';
+import { Button } from '@/components/ui/button';
+import { Card, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
+import { ThemeProvider } from '@/components/theme-provider';
+import { ModeToggle } from '@/components/mode-toggle';
+
 function App() {
   return (
     <ThemeProvider>
     <>
 
-    <div className="bg-gradient-to-tr from-blue-500 to-purple-500">
-      <div className="flex justify-end p-5">
-          <ModeToggle />
-      </div>
+    <div className="bg-gradient-to-tr from-slate-400 to-indigo-700 dark:from-slate-900 dark:to-indigo-900">
+      <div className="flex p-5 justify-between">
+        <div>
+          <Button variant="ghost" className="text-white">Home</Button>
+          <Button variant="ghost" className="text-white">GitHub</Button>
+          <Button variant="ghost" className="text-white">LinkedIn</Button>
+          <Button variant="ghost" className="text-white">Contact</Button>
+        </div>
 
+        <div>
+          <ModeToggle />
+        </div>
+      </div>
+      
       <div className="flex min-h-screen justify-center">
 
         <div className="flex flex-col items-center">
