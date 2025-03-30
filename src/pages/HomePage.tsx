@@ -1,12 +1,10 @@
 import { Button } from '@/components/ui/button';
 import { Card, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
-import { ThemeProvider } from '@/components/theme-provider';
 import { Base } from '@/components/base';
 import { Link } from 'react-router';
 
 function HomePage() {
   return (
-    <ThemeProvider>
     <>
 
     <Base> 
@@ -56,7 +54,6 @@ function HomePage() {
     </Base>
 
     </>
-    </ThemeProvider>
   )
 }
 

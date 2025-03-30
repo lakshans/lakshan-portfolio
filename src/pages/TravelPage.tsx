@@ -1,9 +1,7 @@
-import { ThemeProvider } from "@/components/theme-provider";
 import { Base } from "@/components/base";
 
 export default function TravelPage() {
   return (
-    <ThemeProvider>
     <>
     
     <Base>
@@ -11,6 +9,5 @@ export default function TravelPage() {
     </Base>
 
     </>
-    </ThemeProvider>
   );
 }

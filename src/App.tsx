@@ -5,9 +5,11 @@ import TechPage from './pages/TechPage';
 import ContactPage from './pages/ContactPage';
 import PhotographyPage from './pages/PhotographyPage';
 import TravelPage from './pages/TravelPage';
+import { ThemeProvider } from './components/theme-provider';
 
 function App() {
   return (
+    <ThemeProvider>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -17,6 +19,7 @@ function App() {
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
     </BrowserRouter>
+    </ThemeProvider>
   )
 }
 

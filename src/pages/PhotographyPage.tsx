@@ -1,9 +1,7 @@
-import { ThemeProvider } from "@/components/theme-provider";
 import { Base } from "@/components/base";
 
 export default function PhotographyPage() {
   return (
-    <ThemeProvider>
     <>
     
     <Base>
@@ -11,6 +9,5 @@ export default function PhotographyPage() {
     </Base>
 
     </>
-    </ThemeProvider>
   );
 }
