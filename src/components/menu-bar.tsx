@@ -5,7 +5,7 @@ const menuItems = [
   { path: '/', label: 'Home' },
   { path: '/tech', label: 'Tech' },
   { path: '/photography', label: 'Photography' },
-  { path: '/travel', label: 'Travel' },
+  // { path: '/travel', label: 'Travel' }, // TODO: add travel page
   { path: '/contact', label: 'Contact' },
 ];
 

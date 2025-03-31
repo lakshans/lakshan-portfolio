@@ -8,10 +8,20 @@
   animation: typing 2s steps(20) forwards, blink .7s infinite;
 }
 
+.typing-animation-steady {
+  border-right: 2px solid;
+  animation: typing-steady 1s steps(20) forwards, blink .7s infinite;
+}
+
 @keyframes typing {
   0% { width: 0% }
   12% { width: 13% }
   50% { width: 13% }
+  100% { width: 100% }
+}
+
+@keyframes typing-steady {
+  0% { width: 0% }
   100% { width: 100% }
 }
 
