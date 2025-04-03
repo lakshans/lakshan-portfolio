@@ -20,7 +20,7 @@ const techProjects = [
   },
   {
     id: "item-2",
-    title: "Better for Markham - Frontend Engineer",
+    title: "Better for Markham",
     link: "https://betterformarkham.ca",
     content: "Designed and deployed a campaign site for Jagbir Dosanjh, running for MPP of Markham-Unionville.",
     badges: ["React", "Typescript", "Digital Ocean"]
