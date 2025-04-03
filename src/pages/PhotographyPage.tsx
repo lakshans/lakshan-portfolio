@@ -46,14 +46,8 @@ export default function PhotographyPage() {
             )
           })}
         </CarouselContent>
-        {
-          width > 512 && (
-            <>
-              <CarouselNext />
-              <CarouselPrevious />
-            </>
-          )
-        }
+        <CarouselNext variant="outline" size="icon" className={width <= 512 ? "top-12/11 right-1/3 -translate-y-1/2" : ""}/>
+        <CarouselPrevious variant="outline" size="icon" className={width <= 512 ? "top-12/11 left-1/3 -translate-y-1/2" : ""}/>
       </Carousel>
     </Base>
 
