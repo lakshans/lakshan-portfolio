@@ -8,6 +8,8 @@ import TravelPage from './pages/TravelPage';
 import { ThemeProvider } from './components/theme-provider';
 
 function App() {
+  // Hide address bar on mobile. A hack but for the context of this site, it works fine.
+  window.scrollTo(0, 1);
   return (
     <ThemeProvider>
     <BrowserRouter>
