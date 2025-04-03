@@ -40,14 +40,14 @@ export default function PhotographyPage() {
           {imageObjs.map((imageObj) => {
             const image = imageObj.image;
             return (
-              <CarouselItem className="lg:basis-1/3">
+              <CarouselItem className="mt-10 lg:basis-1/3">
                   <AdvancedImage className="rounded-2xl" cldImg={image}/>
               </CarouselItem>
             )
           })}
         </CarouselContent>
-        <CarouselNext variant="outline" size="icon" className={width <= 512 ? "top-12/11 right-1/3 -translate-y-1/2" : ""}/>
-        <CarouselPrevious variant="outline" size="icon" className={width <= 512 ? "top-12/11 left-1/3 -translate-y-1/2" : ""}/>
+        <CarouselNext variant="outline" size="icon" className={width <= 512 ? "top-0 left-2/3" : ""}/>
+        <CarouselPrevious variant="outline" size="icon" className={width <= 512 ? "top-0 left-1/3" : ""}/>
       </Carousel>
     </Base>
 
