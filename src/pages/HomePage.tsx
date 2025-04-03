@@ -7,9 +7,9 @@ function HomePage() {
   return (
     <>
 
-    <Base> 
+    <Base verticalCenter={true}> 
       <div className="w-max">
-        <p className="typing-animation overflow-hidden whitespace-nowrap mt-15 w-80 text-2xl font-bold text-white md:text-3xl md:mt-40 lg:text-5xl lg:mt-100">
+        <p className="typing-animation overflow-hidden whitespace-nowrap w-80 text-2xl font-bold text-white md:text-3xl lg:text-5xl">
           Hi, my name is Lakshan.
         </p>
       </div>

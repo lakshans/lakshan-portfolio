@@ -40,3 +40,10 @@
   50% {transform: translateY(-25px);}
   70% {transform: translateY(-10px);}
 }
+
+.accordian-chevron {
+	transition: transform 300ms;
+}
+.accordian-trigger[data-state="open"] > .accordian-chevron {
+	transform: rotate(180deg);
+}

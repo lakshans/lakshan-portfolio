@@ -4,8 +4,10 @@ export default function TravelPage() {
   return (
     <>
     
-    <Base>
-      <h1 className="text-4xl font-bold">Travel</h1>
+    <Base verticalCenter={true}>
+      <div className="text-sm p-1 text-white md:text-md md:p-2 lg:text-lg lg:p-3">
+          Coming soon!
+      </div>
     </Base>
 
     </>
